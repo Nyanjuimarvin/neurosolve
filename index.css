@@ -41,4 +41,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 1.0;
+    padding-top: 10px;
+    image-rendering: pixelated;
 }
