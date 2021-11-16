@@ -50,3 +50,8 @@ ul{
     padding-top: 300px;
     font-style: Roboto; font-size: 22px;
 }
+.service{
+    background-color: green;
+    height: 350px;
+    padding-top: 5px;;
+}
