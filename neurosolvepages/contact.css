@@ -37,3 +37,18 @@ a{
     color: green;
 }
 /*Beginning of styling for the second section*/
+
+.second{
+    background-image: url(images/contact.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    overflow: hidden;
+}
+.second h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 330px;
+    font-size: 70px;
+}
