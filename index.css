@@ -1,6 +1,7 @@
 *body{
     padding: 0px;
     margin: 0px;
+    font-style: "Roboto";
 }
 .nav{
     background-color: green;
@@ -48,10 +49,44 @@ ul{
 .image p{
     text-align: center;
     padding-top: 300px;
-    font-style: Roboto; font-size: 22px;
+    font-style: "Roboto"; font-size: 22px;
 }
 .service{
     background-color: green;
-    height: 350px;
-    padding-top: 5px;;
+    height: 400px;
+    padding-top: 5px;
+}
+.service h2{
+    margin-left: 20px;
+}
+.service p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+    
+.picha{
+    background-image: url("images/download\ \(2\).jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    image-rendering: pixelated;
+    padding-top: 5px;
+}
+.picha p{
+    color: white;
+    font-size: 20px;
+    padding-top: 200px;
+    text-align: center;
+}
+.consol{
+    background-color: black;
+    height: 400px;
+    padding-top: 5px;
+}
+.consol h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    font-style: "Roboto";
 }
