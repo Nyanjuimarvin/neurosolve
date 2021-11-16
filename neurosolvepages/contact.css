@@ -1,0 +1,39 @@
+#INN img{
+    height: 100px;
+}
+#INN p{
+    margin-top: -15px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    background-color: green;
+    color: #ffff;
+}
+ul{
+    padding-top: 70px;
+    padding-left: 570px;
+}
+li{
+    display: inline-block;
+    padding-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 19px;
+    font-weight: bolder;
+}
+#nav{
+    height: 40px;
+    width: 90px;
+    margin-top: 75px;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius:60px;
+    background-color: #ffff;
+    color: green;
+}
+/*Beginning of styling for the second section*/
