@@ -25,3 +25,19 @@ ul{
     padding-top: 60px;
     padding-left: 450px;   
 }
+.log{
+    margin-top: 50px;
+}
+.log button{
+    border-radius: 60px;
+    width: 120px;
+    height: 50px;
+}
+.image{
+    height: 500px;
+    width: 100%;
+    background-image: url("images/download\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
