@@ -89,4 +89,15 @@ ul{
     font-size: 20px;
     margin-left: 40px;
     font-style: "Roboto";
+}.jina{
+    border-radius: 60px;
+    width: 250px;
+    height: 70px;
+    margin-left: 10px;
+}
+.jin{
+    color: white;
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 20px;
 }
