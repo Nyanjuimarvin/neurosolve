@@ -158,6 +158,17 @@ ul{
     height: 400px;
     margin-top: 80px;
 }
+.lin{
+    margin-left: 10px;
+}
+.lin h3{
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.lin p{
+    color: white;
+}
 
 
 
