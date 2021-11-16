@@ -45,3 +45,8 @@ ul{
     padding-top: 10px;
     image-rendering: pixelated;
 }
+.image p{
+    text-align: center;
+    padding-top: 300px;
+    font-style: Roboto; font-size: 22px;
+}
