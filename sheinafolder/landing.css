@@ -5,3 +5,51 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* header */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: aqua;
+    height: 140px;
+}
+
+#logo{
+    
+}
+
+#logo{
+    display: flex;
+    font-size: 18px;
+    font-weight: 900;
+    align-items: center;
+    position: relative;
+}
+
+#logo div > img{
+    max-width: 20%;
+    position: relative;
+}
+/* nav menu */
+#navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+
+}
+
+#navmenu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+
+}
