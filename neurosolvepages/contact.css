@@ -50,5 +50,19 @@ a{
     font-weight: bolder;
     text-align: center;
     padding-top: 330px;
+    font-size: 90px;
+}
+/*Styling for the third section*/
+.third{
+    background-color: #0C4803;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+.third h2{
     font-size: 70px;
+}
+.third p{
+    font-size: 40px;
 }
