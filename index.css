@@ -200,19 +200,20 @@ ul{
 }
 .munyao{
     display: flex;
-    
     margin: 0 100px;
 }
 .paul{
     border-radius: 35px 0px 0px 35px;
     padding: 5px;
-    width: 150px;
+    width: 200px;
+    height: 50px;
     
 }
 .mutiso{
     border-radius: 35px 35px 35px 0px;
     background-color: #0C4803;
-    margin-left: -10px;
+    margin-left: -20px;
+    width: 130px;
 }
 .head{
     display: flex;
