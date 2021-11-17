@@ -161,10 +161,11 @@ ul{
     margin-top: 80px;
 }
 .qui{
-    margin-right: 150px;
+    margin-right: 250px;
     color: white;
     font-weight: 780px;
     font-size: 30px;
+    margin-left: -80px;
     
 }
 .nl{
@@ -175,7 +176,9 @@ ul{
 }
 .mun{
 
-    margin-right: 270px; 
+    margin-right: 170px; 
+    font-size: 30px;
+    
 }
 .gt{
     color: white;
@@ -185,7 +188,9 @@ ul{
 .lin{
     font-size: 30px;
     font-weight: 600px;
-    margin-right: 150px;
+    margin-right: 300px;
+    margin-left: -80px;
+
     
 }
 .lin h3{
@@ -207,6 +212,7 @@ ul{
     padding: 5px;
     width: 200px;
     height: 50px;
+    border: none;
     
 }
 .mutiso{
@@ -224,6 +230,7 @@ ul{
 }
 .touch{
     color: white;
+    font-size: 30px;
 }
 
 
