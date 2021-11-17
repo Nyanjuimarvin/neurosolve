@@ -157,20 +157,25 @@ ul{
 
 .last{
     background-color: #1EAB07;
-    height: 450px;
+    height: 500px;
     margin-top: 80px;
 }
 .qui{
-    margin-right: 250px;
+    margin-right: 150px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+    
+}
+.nl{
+    margin-right: 330px;
     color: white;
     font-weight: 780px;
     font-size: 30px;
 }
-.nl{
-    margin-right: 310px;
-    color: white;
-    font-weight: 780px;
-    font-size: 30px;
+.mun{
+
+    margin-right: 270px; 
 }
 .gt{
     color: white;
@@ -180,6 +185,8 @@ ul{
 .lin{
     font-size: 30px;
     font-weight: 600px;
+    margin-right: 150px;
+    
 }
 .lin h3{
     color: white; 
@@ -193,7 +200,8 @@ ul{
 }
 .munyao{
     display: flex;
-    justify-content: space-evenly;
+    
+    margin: 0 100px;
 }
 .paul{
     border-radius: 35px 0px 0px 35px;
@@ -208,7 +216,7 @@ ul{
 }
 .head{
     display: flex;
-    margin: 0 170px;
+    margin: 0 100px;
 }
 .touch img{
     height: 80px;
