@@ -38,7 +38,7 @@ ul{
 .image{
     height: 500px;
     width: 100%;
-    background-image: url("images/download\ \(1\).jpeg");
+    background-image: url("images/trial2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,7 +65,7 @@ ul{
 }
     
 .picha{
-    background-image: url("images/download\ \(2\).jpeg");
+    background-image: url("images/choose1.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,6 +153,7 @@ ul{
     margin-left:150px;
     font-size: 20px;
 }
+
 .last{
     background-color: green;
     height: 400px;
@@ -160,14 +161,22 @@ ul{
 }
 .lin{
     margin-left: 10px;
+    position:absolute;
+    top: 10px;
+    left: 20px;
 }
 .lin h3{
-    color: white;
-    padding-top: 10px;
-    margin-bottom: 50px;
+    color: white; 
 }
 .lin p{
-    color: white;
+    color: white;  
+}
+.munyao{
+    margin-left: 500px;
+    padding-top: 10px;
+}
+.mutiso{
+    display: flex;
 }
 
 
