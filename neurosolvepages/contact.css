@@ -68,56 +68,10 @@ a{
     font-size: 40px;
 }
 /*Styling the form
-.fourth{
-    display: flex;
-    justify-content: center;
-    margin-top: 90px;
-}
 
-.Name,.Email,.Subject{
-    background-color: #0C4803;
-    color: white;
-    font-weight: bold;
-    padding: 4px 15px 4px 15px;
-    border: none;
-
-}
-.Your{
-    background-color: #0C4803;
-    color: white;
-    font-weight: bold;
-    padding: 4px 15px 4px 15px;
-}
-.Name1{
-    background-color: #0C4803;   
-    padding: 20px;
-}
-.Email1{
-    background-color: #0C4803;
-}
-.Subject1{
-    background-color: #0C4803;   
-}
-.Your1{
-    background-color: #0C4803;
-
-}
-td input{
-    margin-left: 40px;
-    margin-bottom: 40px;
-    border: none;
-}
-td{
-    margin-bottom: 60px;
-}
-td textarea{
-    margin-left: 40px;
-    margin-bottom: 40px;
-    border: none;
-}
 */
 form{
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 form div{
 display: flex;
@@ -128,9 +82,11 @@ justify-content: space-evenly;
  
   #name, #subject, #text, #email{
      background-color: #0C4803;
-    padding: 10px 300px 10px 200px;
+    padding: 10px 350px 10px 250px;
      margin-bottom: 45px;
      border: none;
+     margin-left: -2%;
+     height: 80px;
      
  }
  #name-label, #subject-label, #email-label,#text-label{
@@ -139,32 +95,34 @@ justify-content: space-evenly;
     margin-bottom: 45px;
     color: white;
     font-weight: bold;
-    margin-right: 20%;
+    
+    height: 80px;
+    font-size: 40px;
+ }
+ .text-label{
+     height: px;
+ }
+ .text-container input, .subject-container input, .email-container input, .name-container input{
+     width: 200px;
+    font-size: 40px;
  }
   
-  /* KK
-  
-  form{
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: red;
- }
- form div label{
-     background-color: #0C4803;
-     color: white;
-     border: none;
-     font-weight: bold;
-     font-size: 2rem;
- }
- form div input{
-    background-color: #0C4803;
-    color: white;
-    border: none;
-    height: 2rem;
-    align-items: center;    
- }
-  */
+ 
   /* Styling for button */
-  
+  .submit button{
+      background-color: #0C4803;
+      padding: 50px 70px 50px 70px;
+      color: white;
+      font-weight: bold;
+      font-size: 2rem;
+      border: none;
+      
+    
+     
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    
+  }
