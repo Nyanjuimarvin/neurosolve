@@ -50,6 +50,7 @@ ul{
     text-align: center;
     padding-top: 300px;
     font-style: "Roboto"; font-size: 22px;
+    color: white;
 }
 .service{
     background-color: green;
@@ -74,9 +75,9 @@ ul{
     padding-top: 5px;
 }
 .picha p{
-    color: white;
-    font-size: 20px;
-    padding-top: 200px;
+    color: black;
+    font-size: 25px;
+    padding-top: 350px;
     text-align: center;
 }
 .consol{
@@ -159,12 +160,10 @@ ul{
     height: 400px;
     margin-top: 80px;
 }
-.lin{
+/* .lin{
     margin-left: 10px;
     position:absolute;
-    top: 10px;
-    left: 20px;
-}
+} */
 .lin h3{
     color: white; 
 }
@@ -172,13 +171,16 @@ ul{
     color: white;  
 }
 .munyao{
-    margin-left: 500px;
-    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .mutiso{
     display: flex;
 }
-
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
