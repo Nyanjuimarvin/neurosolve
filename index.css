@@ -156,16 +156,31 @@ ul{
 }
 
 .last{
-    background-color: green;
-    height: 400px;
+    background-color: #1EAB07;
+    height: 450px;
     margin-top: 80px;
 }
 .qui{
     margin-right: 250px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
 }
-.nl{margin-right: 310px;
+.nl{
+    margin-right: 310px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
 }
-
+.gt{
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+}
+.lin{
+    font-size: 30px;
+    font-weight: 600px;
+}
 .lin h3{
     color: white; 
 }
@@ -188,7 +203,7 @@ ul{
 }
 .mutiso{
     border-radius: 35px 35px 35px 0px;
-    background-color: green;
+    background-color: #0C4803;
     margin-left: -10px;
 }
 .head{
@@ -197,6 +212,9 @@ ul{
 }
 .touch img{
     height: 80px;
+}
+.touch{
+    color: white;
 }
 
 
