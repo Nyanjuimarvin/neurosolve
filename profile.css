@@ -8,3 +8,6 @@
     display: flex;
     height: 110px;
 }
+.logo img{
+    height: 100px;
+}
