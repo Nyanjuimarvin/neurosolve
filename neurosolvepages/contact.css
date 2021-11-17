@@ -8,7 +8,7 @@
 }
 nav{
     display: flex;
-    background-color: green;
+    background-color:#1EAB07;
     color: #ffff;
 }
 ul{
@@ -34,7 +34,7 @@ a{
     font-weight: bolder;
     border-radius:60px;
     background-color: #ffff;
-    color: green;
+    color:#1EAB07;
 }
 /*Beginning of styling for the second section*/
 
@@ -44,6 +44,7 @@ a{
     height: 800px;
     background-size: cover;
     overflow: hidden;
+ 
 }
 .second h1{
     color: white;
@@ -65,4 +66,37 @@ a{
 }
 .third p{
     font-size: 40px;
+}
+/*Styling the form*/
+.fourth{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Name,.Email,.Subject{
+    background-color: #0C4803;
+    color: white;
+    font-weight: bold;
+    padding: 4px 15px 4px 15px;
+    
+}
+.Your{
+    background-color: #0C4803;
+    color: white;
+    font-weight: bold;
+    padding: 4px 15px 4px 15px;
+}
+.Name1{
+    background-color: #0C4803;   
+}
+.Email1{
+    background-color: #0C4803;
+}
+.Subject1{
+    background-color: #0C4803;   
+}
+.Your1{
+    background-color: #0C4803;
+
 }
