@@ -175,10 +175,8 @@ ul{
     font-size: 30px;
 }
 .mun{
-
     margin-right: 170px; 
-    font-size: 30px;
-    
+    font-size: 30px;  
 }
 .gt{
     color: white;
@@ -189,9 +187,7 @@ ul{
     font-size: 30px;
     font-weight: 600px;
     margin-right: 300px;
-    margin-left: -80px;
-
-    
+    margin-left: -80px;  
 }
 .lin h3{
     color: white; 
@@ -212,8 +208,7 @@ ul{
     padding: 5px;
     width: 200px;
     height: 50px;
-    border: none;
-    
+    border: none;   
 }
 .mutiso{
     border-radius: 35px 35px 35px 0px;
