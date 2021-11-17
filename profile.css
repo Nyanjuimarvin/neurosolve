@@ -11,3 +11,9 @@
 .logo img{
     height: 100px;
 }
+.logo p{
+    margin-top: -30px;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+}
