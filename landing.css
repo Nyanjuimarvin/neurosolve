@@ -1,5 +1,6 @@
 /* default styles */
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,49 +8,179 @@
 }
 
 /* header */
-#header{
+
+#header {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: aqua;
-    height: 140px;
+    background-color: #1EAB07;
+    height: 120px;
 }
 
-#logo{
-    
-}
+/* logo */
 
-#logo{
+#logo {
+    position: relative;
+    width: 10%;
+    height: 92px;
     display: flex;
+    flex-direction: column;
     font-size: 18px;
     font-weight: 900;
-    align-items: center;
-    position: relative;
+    margin-top: -12px;
+    padding-top: 20px;
 }
 
-#logo div > img{
-    max-width: 20%;
+/* logo image */
+
+#logo>img {
+    max-width: 100%;
     position: relative;
+    bottom: 45px;
 }
+
+/* logotext */
+
+#logotext {
+    position: relative;
+    bottom: 80px;
+    color: white;
+    left: 30px;
+    font-size: 18px;
+}
+
 /* nav menu */
-#navmenu{
+
+#navmenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 72px;
-
+    padding-top: 50px;
 }
 
-#navmenu ul{
+/* Navmenulist */
+
+#navmenu ul {
     display: flex;
     justify-content: space-between;
     gap: 48px;
     font-weight: bold;
     font-size: 18px;
+    color: white;
     list-style: none;
+}
 
+/* login button */
+
+#loginbutton {
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    color: #1EAB07;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+/* herosection */
+
+/* herosection text */
+
+#herosection>p {
+    background-color: hotpink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* herosection image */
+
+.background {
+    background-image: url(/images/eye-for-ebony-jg_t3PBq5Jo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+}
+
+/* blur effect */
+
+.blur {
+    background: rgba(39, 39, 39, 0.2);
+    backdrop-filter: blur(2px);
+    height: 570px;
+    width: 100%;
+}
+
+/* about section */
+
+#aboutsection {
+    line-height: 36px;
+    height: 520px;
+    background: #0C4803;
+    padding-left: 48px;
+    padding-top: 48px;
+}
+
+/* About section title */
+
+#aboutsection :first-child {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+/* about section paragraphs */
+
+#aboutsection>p {
+    color: white;
+    padding-bottom: 48px;
+    font-size: 28px;
+}
+
+/* about section button */
+
+#aboutsection>button {
+    font-size: 24px;
+    color: #1EAB07;
+    width: 300px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+/* psychiatric centres */
+.psychiatric-centres {
+    height: 420px;
+    padding-left: 48px;
+}
+
+/* psychiatric centres heading */
+.psychiatric-centres>p {
+    padding-bottom: 48px;
+    font-size: 36px;
+    padding-top: 36px;
+    color: #1EAB07;
+}
+
+/* psychiatric centres list */
+#unorderedlist{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    line-height: 66px;
+    padding-left: 24px;
+    
+}
+
+#unorderedlist :first-child{
+    padding-right: 28px;
 }
