@@ -126,7 +126,7 @@
 
 #aboutsection {
     line-height: 36px;
-    height: 520px;
+    height: 550px;
     background: #0C4803;
     padding-left: 48px;
     padding-top: 48px;
@@ -158,12 +158,14 @@
 }
 
 /* psychiatric centres */
+
 .psychiatric-centres {
     height: 420px;
     padding-left: 48px;
 }
 
 /* psychiatric centres heading */
+
 .psychiatric-centres>p {
     padding-bottom: 48px;
     font-size: 36px;
@@ -172,15 +174,93 @@
 }
 
 /* psychiatric centres list */
-#unorderedlist{
+
+#unorderedlist {
     display: flex;
     flex-direction: row;
     font-size: 24px;
     line-height: 66px;
     padding-left: 24px;
-    
 }
 
-#unorderedlist :first-child{
+/* psychiatric centres list first child*/
+
+#unorderedlist :first-child {
     padding-right: 28px;
+}
+
+/* service delivery section */
+
+#servicedelivery {
+    height: 500px;
+    display: flex;
+    background-color: #0C4803;
+}
+
+/* right side div */
+
+#familyimage {
+    width: 50%;
+}
+
+/* right side image */
+
+#familyimage>img {
+    max-width: 100%;
+    width: 800px;
+    height: 500px;
+}
+
+/* service delivery left-section */
+
+#left-servicedelivery {
+    padding-top: 36px;
+    padding-left: 36px;
+}
+
+/* service delivery left-section divs */
+
+.leftservicedivs {
+    height: 500px;
+    display: flex;
+    max-height: 33%;
+    color: white;
+    padding-bottom: 36px;
+    font-size: 24px;
+}
+
+/* service delivery left-section paragraphs */
+
+.leftserviceparagraph {
+    padding-bottom: 48px;
+    padding-left: 48px;
+    text-align: left;
+    line-height: 30px;
+}
+
+/*leftservice third paragraph */
+
+.leftserviceparagraphthird {
+    margin-left: -24px;
+}
+
+/* approach section */
+
+#approachsection {
+    display: flex;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-bottom: 48px;
+}
+
+#ourapproach {
+    width: 20%;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1EAB07;
+}
+
+#approachparagraphs {
+    font-size: 22px;
+    line-height: 36px;
 }
