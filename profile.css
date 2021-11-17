@@ -17,3 +17,9 @@
     color: white;
     font-size: 20px;
 }
+li{
+    display: inline-block;
+    margin-right: 40px;
+    font-style: "Roboto";font-size: 22px;
+    color: white;
+}
