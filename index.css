@@ -160,29 +160,44 @@ ul{
     height: 400px;
     margin-top: 80px;
 }
-/* .lin{
-    margin-left: 10px;
-    position:absolute;
-} */
+.qui{
+    margin-right: 250px;
+}
+.nl{margin-right: 310px;
+}
+
 .lin h3{
     color: white; 
 }
 .lin p{
     color: white;  
 }
+#flex{
+    display: flex;
+    margin: 0;
+}
 .munyao{
     display: flex;
     justify-content: space-evenly;
 }
+.paul{
+    border-radius: 35px 0px 0px 35px;
+    padding: 5px;
+    width: 150px;
+    
+}
 .mutiso{
-    display: flex;
+    border-radius: 35px 35px 35px 0px;
+    background-color: green;
+    margin-left: -10px;
 }
 .head{
     display: flex;
-    justify-content: space-evenly;
+    margin: 0 170px;
 }
-
-
+.touch img{
+    height: 80px;
+}
 
 
 
