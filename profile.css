@@ -3,3 +3,8 @@
     margin: 0px;
     font-style: "Roboto";
 }
+.nav{
+    background-color: green;
+    display: flex;
+    height: 110px;
+}
