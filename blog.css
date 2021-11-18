@@ -63,3 +63,18 @@
     border: none;
     border-radius: 20px;
 }
+/* Bacground image */
+.backgroundimage{
+    background-image: url(imgss/istockphoto-1156466210-612x612.jpg);
+    background-size: 610px;
+    background-repeat: repeat-x;
+    height: 900px;
+    overflow: hidden;
+}
+/* blog text */
+.backgroundimage h1{
+    text-align: center;
+ margin-top: 150px;
+ color: white;
+ font-size: 8rem;
+}
