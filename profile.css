@@ -1,7 +1,7 @@
 *body{
     padding: 0px;
     margin: 0px;
-    font-style: "Roboto";
+    font-family: "Roboto";
 }
 .nav{
     background-color: green;
@@ -140,6 +140,11 @@ ul{
     font-size: 20px;
     color: white;
 }
+.health p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 
 
