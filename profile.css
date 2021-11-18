@@ -87,4 +87,38 @@ ul{
     padding-bottom: 40px;
     background-color: darkgreen;
 }
+.pic img{
+    height: 220px ;
+    width: 320px ;
+}
+.psy{
+    margin-left: 80px;
+}
+.psy h3{
+    font-size: 20px;
+}
+.psy p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: Roboto;
+    margin-left: -20px;
+}
+.btn{
+    border-radius: 60px;
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    background-color: white;
+    margin-left: -45px;
+    margin-top: 30px;
+}
+.take{
+    margin-left: 30px;
+    box-shadow: 3px 3px 3px 0px grey;
+    border-radius: 25px 25px  25px 25px;
+    width: 320px;
+    margin: 40px;
+    padding-bottom: 40px;
+    background-color: darkgreen;
+}
 
