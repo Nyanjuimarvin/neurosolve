@@ -43,5 +43,13 @@ ul{
     margin-top: -10px;
 }
 .doct{
-    
+    background-color: #0C4803;
+    height: 50px;
+    margin-top: -15px;
+}
+.doct p{
+    font-size: 29px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
 }
