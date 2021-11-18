@@ -144,6 +144,79 @@ ul{
     font-weight: bold;
     font-size: 20px;
 }
+.last{
+    background-color: #1EAB07;
+    height: 500px;
+    margin-top: 80px;
+}
+.qui{
+    margin-right: 280px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+    margin-left: -80px;
+    
+}
+.nl{
+    margin-right: 330px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+}
+.mun{
+    margin-right: 170px; 
+    font-size: 30px;  
+}
+.gt{
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+}
+.lin{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-right: 300px;
+    margin-left: -80px;  
+}
+.lin h3{
+    color: white; 
+}
+.lin p{
+    color: white;  
+}
+#flex{
+    display: flex;
+    margin: 0;
+}
+.munyao{
+    display: flex;
+    margin: 0 100px;
+}
+.paul{
+    border-radius: 35px 0px 0px 35px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border: none;   
+}
+.mutiso{
+    border-radius: 35px 35px 35px 0px;
+    background-color: #0C4803;
+    margin-left: -20px;
+    width: 130px;
+}
+.head{
+    display: flex;
+    margin: 0 100px;
+}
+.touch img{
+    height: 80px;
+}
+.touch{
+    color: white;
+    font-size: 30px;
+}
+
 
 
 
