@@ -63,3 +63,8 @@ ul{
 .psy h3{
     font-size: 20px;
 }
+.psy p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: Roboto;
+}
