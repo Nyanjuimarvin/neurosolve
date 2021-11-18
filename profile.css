@@ -85,7 +85,7 @@ ul{
     width: 320px;
     margin: 40px;
     padding-bottom: 40px;
-    background-color: darkgreen;
+    background-color:  #1EAB07;
 }
 .pic img{
     height: 220px ;
@@ -119,7 +119,7 @@ ul{
     width: 320px;
     margin: 40px;
     padding-bottom: 40px;
-    background-color: darkgreen;
+    background-color: #1EAB07;
 }
 .com{
     display: inline-flex;
@@ -130,6 +130,18 @@ ul{
 .cat{
     display: inline-flex;
 }
+.check{
+    text-align: center;
+    height: 500px;
+}
+.chr{
+    height: 40px;
+    width: 170px;
+    background-color: darkgreen;
+    font-size: 20px;
+    color: white;
+}
+
 
 
 
