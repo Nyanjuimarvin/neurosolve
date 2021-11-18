@@ -121,4 +121,14 @@ ul{
     padding-bottom: 40px;
     background-color: darkgreen;
 }
+.com{
+    display: inline-flex;
+}
+.bom{
+    display: inline-flex;
+}
+.cat{
+    display: inline-flex;
+}
+
 
