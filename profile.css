@@ -68,3 +68,12 @@ ul{
     font-weight: 400;
     font-style: Roboto;
 }
+.btn{
+    border-radius: 60px;
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    background-color: white;
+    margin-left: -20px;
+    margin-top: 30px;
+}
