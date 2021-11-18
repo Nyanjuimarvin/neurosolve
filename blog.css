@@ -68,7 +68,6 @@
     background-image: url(imgss/istockphoto-1156466210-612x612.jpg);
     background-size: 610px;
     background-repeat: repeat-x;
-    height: 900px;
     overflow: hidden;
 }
 /* blog text */
@@ -77,4 +76,16 @@
  margin-top: 150px;
  color: white;
  font-size: 8rem;
+}
+/* style for the section with the images and texts */
+.posts{
+    display: flex;
+    padding-top: 30px;
+}
+.posts .paragraph p, a{
+    font-size: 2.5rem;
+    margin-left: 40px;
+}
+.posts a{
+    color: #1EAB07;
 }
