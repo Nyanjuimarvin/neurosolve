@@ -37,5 +37,8 @@ ul{
 }
 .doc{
     color: #0C4803;
-    
+    margin-left: 20px;
+    font-size: 22px;
+    font-style: Roboto;
+    margin-top: -10px;
 }
