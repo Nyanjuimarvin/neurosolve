@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="patientsform.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Patients form</title>
+</head>
+
+<body>
+    <!-- page title -->
+    <div id="pageheader">
+        <p>Patient Appointment Booking Form</p>
+    </div>
+    <!-- booking form title -->
+    <div id="doctorsappointmentform">
+        <p>Book a Doctor’s Appointment</p>
+
+        <!-- booking form input -->
+        <div class="doctorsappointmentform">
+            <form class="bookingform">
+                <div class="fname">
+                    <input type="text" id="fname" name="First Name" placeholder="First Name"><br>
+                </div>
+                <div class="lname">
+                    <input type="text" id="lname" name="Last Name" placeholder="Last Name"><br>
+                </div>
+                <div class="Dobirth">
+                    <input type="number" id="Dobirth" name="Date Of Birth; dd/mm/yyy"
+                        placeholder="Date Of Birth; dd/mm/yyy"><br>
+                </div>
+
+            </form>
+
+            <form class="bookingform">
+                <div class="PhoneNo">
+                    <input type="number" id="PhoneNo" name="Phone Number" placeholder="Phone Number"><br>
+                </div>
+                <div class="emailaddress">
+                    <input type="text" id="emailaddress" name="Email Address" placeholder="Email Address"><br>
+                </div>
+
+            </form>
+
+            <form class="bookingform">
+                <div class="altPhoneNo">
+                    <input type="number" id="altPhoneNo" name="Alternative Phone Number"
+                        placeholder="Alternative Phone Number"><br>
+                </div>
+                <div class="CityorTown">
+                    <input type="text" id="CityorTown" name="City or Town" placeholder="City or Town"><br>
+                </div>
+                <div class="County">
+                    <input type="text" id="County" name="County" placeholder="County"><br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- contact preference -->
+    <div id="ContactPreference">
+        <p>Contact Preference</p>
+        <!-- contact preference form -->
+        <form id="contactpreferenceform">
+             <div id="emailradio">
+                <input type="radio" id="ViaEmail" name="Contact_Preference" value="Via E-mail">
+                  <label for="ViaEmail">Via E-mail</label><br>
+            </div>
+            <div id="phoneradio">
+                  <input type="radio" id="ViaPhone" name="Contact_Preference" value="Via Phone">
+                  <label for="ViaPhone">Via Phone</label>
+            </div>
+        </form>
+    </div>
+
+    <!-- requesting -->
+    <div id="requesting">
+        <div id="requestingfor">
+            <p>Whom am I requesting this for?</p>
+            <!-- requesting form -->
+            <form>
+
+                <div class="pa">
+                      <input type="radio" id="Self" name="requesting" value="Self">
+                      <label for="Self">Self</label><br>
+                </div>
+
+                <div class="pa">
+                      <input type="radio" id="Spouse" name="requesting" value="Spouse">
+                      <label for="Spouse">Spouse</label><br>
+                </div>
+
+                <div class="pa">
+                      <input type="radio" id="Child" name="requesting" value="Child">
+                      <label for="Child">Child</label><br>
+                </div>
+
+                <div class="pa">
+                      <input type="radio" id="Other" name="requesting" value="Other">
+                      <label for="Other">Other</label>
+                </div>
+
+
+            </form>
+        </div>
+
+        <!-- called back -->
+
+        <div id="callback">
+
+            <p> I would like to be called back within?*
+            <p>
+
+                <!-- called back form -->
+            <form>
+
+                <div class="pa">
+                      <input type="radio" id="10-Mins" name="call" value="10 Minutes">
+                      <label for="10 Minutes">10 Minutes</label><br>
+                </div>
+
+                <div class="pa">
+                      <input type="radio" id="30-Mins" name="call" value="30 Minutes">
+                      <label for="30 Minutes">30 Minutes</label><br>
+                </div>
+                <div class="pa">
+                      <input type="radio" id="60-Mins" name="call" value="60 Minutes">
+                      <label for="60 Minutes">60 Minutes</label><br>
+                </div>
+                <div class="pa">
+                      <input type="radio" id="6-hours" name="call" value="6 Hours">
+                      <label for="6 Hours">6 Hours</label><br>
+                </div>
+                <div class="pa">
+                      <input type="radio" id="12-hours" name="call" value="12 hours">
+                      <label for="12 hours">12 hours</label><br>
+                </div>
+                <div class="pa">
+                      <input type="radio" id="1-week" name="call" value="1 Week">
+                      <label for="1 Week">1 Week</label><br>
+                </div>
+                <div class="pa">
+                      <input type="radio" id="2-weeks" name="call" value="2 Weeks">
+                      <label for="2 Weeks">2 Weeks</label><br>
+                </div>
+
+            
+            </form>
+        </div>
+    </div>
+
+<div id="appointbutton">
+
+    <input type="submit" value="Submit">
+</div>
+</body>
+
+</html>
