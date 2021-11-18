@@ -63,6 +63,13 @@
     border: none;
     border-radius: 20px;
 }
+/* Styling for the background image */
+#bckg{
+    height: 780px;
+    background: url(asset/pexels-photo-4672438.jpeg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
 /*  styling for the second section */
 .container{
     display: flex;
