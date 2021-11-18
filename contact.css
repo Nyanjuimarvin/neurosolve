@@ -159,3 +159,57 @@ justify-content: space-evenly;
       height: 200px;
       margin-top: 70px;
   }
+  /* footer */
+  #footer{
+      background-color: #1EAB07;
+      display: flex;
+      justify-content: space-between;
+      text-align: left;
+      height: 450px;
+      font-size: 24px;
+      color: white;
+      padding-top: 48px;
+      padding-left: 48px;
+  }
+  /* footer texts */
+  .footertexts{
+      line-height: 48px;
+      width: 27%;
+  }
+  /* footer texts headings */
+  .footertexts p:first-child{
+      font-size: 36px;
+      margin-bottom: 24px;
+      font-weight: 900;
+  }
+  /* footer social icons */
+  .footertexts>img{
+      width: 172px;
+  }
+  /* footer buttons */
+  #newsletterbutton{
+      position: relative;
+      display: flex;
+      left: -48px;
+      margin-top: 24px;
+  }
+  /* email button */
+  #emailbutton{
+      position: relative;
+      width: 260px;
+      height: 35px;
+      border-radius: 20px;
+      border: none;
+      color: #1EAB07;
+      left: 48px;
+  }
+  /* subscribe button */
+  #subscribe{
+      position: relative;
+      width: 140px;
+      height: 35px;
+      border-radius: 20px 20px 20px 0px;
+      border: none;
+      background-color: #0C4803;
+      color: #1EAB07;
+  }
