@@ -1,0 +1,162 @@
+/* default styles */
+* {
+    box-sizing: border-box;
+    width: 1100px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+
+/* page header */
+#pageheader {
+    background-color: #0C4803;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    height: 250px;
+    padding-top: 36px;
+
+}
+
+/* doctor's appointment */
+#doctorsappointmentform {
+    height: 500px;
+    margin-top: -42px;
+    padding-top: 36px;
+    left: -500px;
+}
+
+/* doctors appointment section paragraph */
+#doctorsappointmentform>p {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+/* booking form div */
+.bookingform {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.doctorsappointmentform {
+    position: relative;
+    right: 90px;
+}
+
+/* booking form inputs */
+
+#fname {
+    height: 50px;
+    width: 300px;
+    background-color: #0C4803;
+    color: white;
+}
+
+#lname {
+    height: 50px;
+    width: 300px;
+    background-color: #0C4803;
+    color: white;
+}
+
+#Dobirth {
+    height: 50px;
+    width: 300px;
+    background-color: #0C4803;
+    color: white;
+}
+
+#PhoneNo {
+    height: 50px;
+    width: 300px;
+    background-color: #0C4803;
+    color: white;
+}
+
+#emailaddress {
+    height: 50px;
+    width: 680px;
+    background-color: #0C4803;
+    color: white;
+}
+
+#altPhoneNo {
+    height: 50px;
+    width: 300px;
+    background-color: #0C4803;
+    color: white;
+}
+
+#CityorTown {
+    height: 50px;
+    width: 300px;
+    background-color: #0C4803;
+    color: white;
+}
+
+#County {
+    height: 50px;
+    width: 300px;
+    background-color: #0C4803;
+    color: white;
+}
+
+/* contact preference div */
+#ContactPreference {
+    height: 150px;
+}
+
+/* contact preference text */
+#ContactPreference>p {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+/* contact preference radio buttons and texts */
+#contactpreferenceform {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#emailradio {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#phoneradio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+/* requsting section */
+
+#requestingfor {
+    width: 50%;
+    max-width: 100%;
+    font-size: 18px;
+}
+
+#callback {
+    width: 50%;
+    max-width: 100%;
+    margin-top: 56px;
+    font-size: 18px;
+}
+
+#appointbutton input{
+    width: 300px;
+    margin-top: 48px;
+    height: 50px;
+    background-color: #0C4803;
+    color: white;
+    font-size: 18px;
+    border: none;
+
+}
