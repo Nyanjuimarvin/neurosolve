@@ -1,0 +1,214 @@
+#header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #1EAB07;
+    height: 120px;
+}
+/* logo */
+#logo {
+    position: relative;
+    width: 10%;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: -12px;
+    padding-top: 20px;
+}
+/* logo image */
+#logo>img {
+    max-width: 100%;
+    position: relative;
+    bottom: 45px;
+}
+/* logotext */
+#logotext {
+    position: relative;
+    bottom: 80px;
+    color: white;
+    left: 30px;
+    font-size: 18px;
+}
+/* nav menu */
+#navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+    padding-top: 50px;
+}
+/* Navmenulist */
+#navmenu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+}
+/* login button */
+#loginbutton {
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    color: #1EAB07;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+#bckg{
+    height: 580px;
+    background: url(images/pexels-photo-6129502.jpeg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.main{
+    background-color: Green;
+    padding-bottom: 50px;
+}
+.main img{
+    width: 470px;
+    padding: 70px;
+}
+.about{
+    float: right;
+    padding-top: 40px;
+    padding-right: 163px;
+    color: #ffff;
+}
+.about p{
+    font-size: 17px;
+}
+.about h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.about h3::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 12%;
+    border-bottom: 4px solid black;
+}
+.about :nth-child(3){
+    padding-bottom: 20px;
+}
+.about :nth-child(5){
+    padding-bottom: 20px;
+}
+.about :nth-child(6){
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about :nth-child(11){
+    padding-bottom: 65px;
+}
+.about button{
+    height: 90px;
+    width: 270px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    color: green;
+    margin-left: 90px;
+}
+.statements{
+    text-align: center;
+    font-size: 22px;
+}
+.statements > div > h3::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    border-bottom: 3px solid green;
+}
+#vision p{
+    color: green;
+}
+#mission p{
+    color: green;
+}
+.images{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.images :first-child{
+    height: 340px;
+    width: 300px;
+}
+.images :nth-child(2){
+    width: 400px;
+    height: 340px;
+    border-radius: 201px;
+}
+.images :nth-child(3){
+    width: 300px;
+    height: 340px;
+}
+
+/*footer*/
+#footer{
+    background-color: #1EAB07;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 450px;
+    font-size: 24px;
+    color: white;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+/* footer texts */
+.footertexts{
+    line-height: 48px;
+    width: 27%;
+}
+/* footer texts headings */
+.footertexts p:first-child{
+    font-size: 36px;
+    margin-bottom: 24px;
+    font-weight: 900;
+}
+/* footer social icons */
+.footertexts>img{
+    width: 172px;
+}
+/* footer buttons */
+#newsletterbutton{
+    position: relative;
+    display: flex;
+    left: -48px;
+    margin-top: 24px;
+}
+/* email button */
+#emailbutton{
+    position: relative;
+    width: 260px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    color: #1EAB07;
+    left: 48px;
+}
+/* subscribe button */
+#subscribe{
+    position: relative;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px 20px 20px 0px;
+    border: none;
+    background-color: #0C4803;
+    color: #1EAB07;
+}
