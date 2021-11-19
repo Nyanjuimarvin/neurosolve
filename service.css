@@ -3,38 +3,86 @@
     margin: 0px;
     font-style: "Roboto";
 }
-.nav{
-    background-color: green;
+/* header */
+
+#header {
+    position: relative;
     display: flex;
-    height: 110px;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #1EAB07;
+    height: 120px;
 }
-.logo img{
-    height: 100px;
+
+/* logo */
+
+#logo {
+    position: relative;
+    width: 10%;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: -12px;
+    padding-top: 20px;
 }
-.logo p{
-    margin-top: -30px;
-    padding-left: 20px;
+
+/* logo image */
+
+#logo>img {
+    max-width: 100%;
+    position: relative;
+    bottom: 45px;
+}
+
+/* logotext */
+
+#logotext {
+    position: relative;
+    bottom: 80px;
     color: white;
-    font-size: 20px;
+    left: 30px;
+    font-size: 18px;
 }
-li{
-    display: inline-block;
-    margin-right: 40px;
-    font-style: "Roboto";font-size: 22px;
+
+/* nav menu */
+
+#navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+    padding-top: 50px;
+}
+
+/* Navmenulist */
+
+#navmenu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    font-weight: bold;
+    font-size: 18px;
     color: white;
+    list-style: none;
 }
-ul{
-    padding-top: 60px;
-    padding-left: 450px;   
+
+/* login button */
+
+#loginbutton {
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    color: #1EAB07;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
 }
-.log{
-    margin-top: 50px;
-}
-.log button{
-    border-radius: 60px;
-    width: 120px;
-    height: 50px;
-}
+
 .image{
     height: 500px;
     width: 100%;
