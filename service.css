@@ -38,7 +38,7 @@ ul{
 .image{
     height: 500px;
     width: 100%;
-    background-image: url("images/trial2.png");
+    background-image: url("assets/trial2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,7 +66,7 @@ ul{
 }
     
 .picha{
-    background-image: url("images/choose1.jpg");
+    background-image: url("assets/choose1.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
