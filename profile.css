@@ -1,0 +1,221 @@
+
+  
+*body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto";
+}
+.nav{
+    background-color: green;
+    display: flex;
+    height: 110px;
+}
+.logo img{
+    height: 100px;
+}
+.logo p{
+    margin-top: -30px;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+    margin-right: 40px;
+    font-style: "Roboto";font-size: 22px;
+    color: white;
+}
+ul{
+    padding-top: 60px;
+    padding-left: 450px;   
+}
+.log{
+    margin-top: 50px;
+}
+.log button{
+    border-radius: 60px;
+    width: 120px;
+    height: 50px;
+}
+.doc{
+    color: #0C4803;
+    margin-left: 20px;
+    font-size: 22px;
+    font-style: Roboto;
+    margin-top: -10px;
+}
+.doct{
+    background-color: #0C4803;
+    height: 50px;
+    margin-top: -15px;
+}
+.doct p{
+    font-size: 29px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.pic img{
+    height: 220px ;
+    width: 320px ;
+}
+.psy{
+    margin-left: 80px;
+}
+.psy h3{
+    font-size: 20px;
+}
+.psy p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: Roboto;
+    margin-left: -20px;
+}
+.btn{
+    border-radius: 60px;
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    background-color: white;
+    margin-left: -45px;
+    margin-top: 30px;
+}
+.take{
+    margin-left: 30px;
+    box-shadow: 3px 3px 3px 0px grey;
+    border-radius: 25px 25px  25px 25px;
+    width: 320px;
+    margin: 40px;
+    padding-bottom: 40px;
+    background-color:  #1EAB07;
+}
+.pic img{
+    height: 220px ;
+    width: 320px ;
+}
+.psy{
+    margin-left: 80px;
+}
+.psy h3{
+    font-size: 20px;
+}
+.psy p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: Roboto;
+    margin-left: -20px;
+}
+.btn{
+    border-radius: 60px;
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    background-color: white;
+    margin-left: -45px;
+    margin-top: 30px;
+}
+.take{
+    margin-left: 30px;
+    box-shadow: 3px 3px 3px 0px grey;
+    border-radius: 25px 25px  25px 25px;
+    width: 320px;
+    margin: 40px;
+    padding-bottom: 40px;
+    background-color: #1EAB07;
+}
+.com{
+    display: inline-flex;
+}
+.bom{
+    display: inline-flex;
+}
+.cat{
+    display: inline-flex;
+}
+.check{
+    text-align: center;
+}
+.chr{
+    height: 40px;
+    width: 170px;
+    background-color: darkgreen;
+    font-size: 20px;
+    color: white;
+}
+.health p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.last{
+    background-color: #1EAB07;
+    height: 500px;
+    margin-top: 80px;
+}
+.qui{
+    margin-right: 280px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+    margin-left: -80px;
+    
+}
+.nl{
+    margin-right: 330px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+}
+.mun{
+    margin-right: 170px; 
+    font-size: 30px;  
+}
+.gt{
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+}
+.lin{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-right: 300px;
+    margin-left: -80px;  
+}
+.lin h3{
+    color: white; 
+}
+.lin p{
+    color: white;  
+}
+#flex{
+    display: flex;
+    margin: 0;
+}
+.munyao{
+    display: flex;
+    margin: 0 100px;
+}
+.paul{
+    border-radius: 35px 0px 0px 35px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border: none;   
+}
+.mutiso{
+    border-radius: 35px 35px 35px 0px;
+    background-color: #0C4803;
+    margin-left: -20px;
+    width: 130px;
+}
+.head{
+    display: flex;
+    margin: 0 100px;
+}
+.touch img{
+    height: 80px;
+}
+.touch{
+    color: white;
+    font-size: 30px;
+}
+

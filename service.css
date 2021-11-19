@@ -1,0 +1,229 @@
+*body{
+    padding: 0px;
+    margin: 0px;
+    font-style: "Roboto";
+}
+.nav{
+    background-color: green;
+    display: flex;
+    height: 110px;
+}
+.logo img{
+    height: 100px;
+}
+.logo p{
+    margin-top: -30px;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+    margin-right: 40px;
+    font-style: "Roboto";font-size: 22px;
+    color: white;
+}
+ul{
+    padding-top: 60px;
+    padding-left: 450px;   
+}
+.log{
+    margin-top: 50px;
+}
+.log button{
+    border-radius: 60px;
+    width: 120px;
+    height: 50px;
+}
+.image{
+    height: 500px;
+    width: 100%;
+    background-image: url("assets/trial2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1.0;
+    padding-top: 10px;
+    image-rendering: pixelated;
+}
+.image p{
+    text-align: center;
+    padding-top: 300px;
+    font-style: "Roboto"; font-size: 22px;
+    color: white;
+}
+.service{
+    background-color: green;
+    height: 400px;
+    padding-top: 5px;
+}
+.service h2{
+    margin-left: 20px;
+}
+.service p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+    
+.picha{
+    background-image: url("assets/choose1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    image-rendering: pixelated;
+    padding-top: 5px;
+}
+.picha p{
+    color: black;
+    font-size: 25px;
+    padding-top: 350px;
+    text-align: center;
+}
+.consol{
+    background-color: black;
+    height: 700px;
+    padding-top: 5px;
+}
+.consol h4{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    font-style: "Roboto";
+}.jina{
+    border-radius: 60px;
+    width: 250px;
+    height: 70px;
+    margin-left: 10px;
+}
+.jin{
+    color: white;
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 20px;
+}
+.em{
+    border-radius: 60px;
+    width: 250px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.ema{
+    color: white;
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 20px;
+}
+.no{
+    border-radius: 60px;
+    width: 250px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.num{
+    color: white;
+    display: inline-block;
+    margin-left:250px;
+    font-size: 20px;
+}
+.me{
+    border-radius: 60px;
+    width: 350px;
+    height: 170px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.mess{
+    color: white;
+    display: inline-block;
+    margin-left:350px;
+    font-size: 20px;
+}
+.sub{
+    border-radius: 60px;
+    width: 150px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.mit{
+    color: white;
+    display: inline-block;
+    margin-left:150px;
+    font-size: 20px;
+}
+
+.last{
+    background-color: #1EAB07;
+    height: 500px;
+    margin-top: 80px;
+}
+.qui{
+    margin-right: 280px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+    margin-left: -80px;
+    
+}
+.nl{
+    margin-right: 330px;
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+}
+.mun{
+    margin-right: 170px; 
+    font-size: 30px;  
+}
+.gt{
+    color: white;
+    font-weight: 780px;
+    font-size: 30px;
+}
+.lin{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-right: 300px;
+    margin-left: -80px;  
+}
+.lin h3{
+    color: white; 
+}
+.lin p{
+    color: white;  
+}
+#flex{
+    display: flex;
+    margin: 0;
+}
+.munyao{
+    display: flex;
+    margin: 0 100px;
+}
+.paul{
+    border-radius: 35px 0px 0px 35px;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    border: none;   
+}
+.mutiso{
+    border-radius: 35px 35px 35px 0px;
+    background-color: #0C4803;
+    margin-left: -20px;
+    width: 130px;
+}
+.head{
+    display: flex;
+    margin: 0 100px;
+}
+.touch img{
+    height: 80px;
+}
+.touch{
+    color: white;
+    font-size: 30px;
+}
